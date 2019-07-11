@@ -17,7 +17,7 @@
 	<repository>
 		<uniqueVersion>false</uniqueVersion>
 		<id>nexus</id>
-		<name>Releases</name>
+		<name>release-candidate</name>
 		<url>http://54.173.200.74:8081/nexus/content/repositories/release-candidate/</url>
 	</repository>
 </distributionManagement>
