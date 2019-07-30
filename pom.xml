@@ -7,20 +7,6 @@
     <version>v1</version>
     <name>Visualpathit VProfile Webapp</name>
     <url>http://maven.apache.org</url>
-	   <distributionManagement>
-	<snapshotRepository>
-		<uniqueVersion>true</uniqueVersion>
-		<id>nexus</id>
-		<name>Snapshots</name>
-		<url>http://54.173.200.74:8081/nexus/content/repositories/snapshots/</url>
-	</snapshotRepository>
-	<repository>
-		<uniqueVersion>false</uniqueVersion>
-		<id>nexus</id>
-		<name>release-candidate</name>
-		<url>http://54.173.200.74:8081/nexus/content/repositories/release-candidate/</url>
-	</repository>
-</distributionManagement>
     <properties>
         <spring.version>4.2.0.RELEASE</spring.version>
         <spring-security.version>4.0.2.RELEASE</spring-security.version>
